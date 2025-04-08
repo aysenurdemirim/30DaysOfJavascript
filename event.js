@@ -44,26 +44,27 @@ $(document).on('click', '[data-id="46af94bd"] .elementor-button', function () {
 
 
 
-
+// trustpilot kısmındaki görsel click
 $(document).on('click', '.elementor-element-2cdbc235', function () {
     dataLayer.push({
-        'event': 'trustpilot',
-        'fbEventName': 'trustpilot'
+        'event': 'click_trustpilot',
+        'fbEventName': 'click_trustpilot'
     });
 });
 
-
+// footer kısmındaki randevu al kısmı
 $(document).on('click', '.elementor-element-68080441', function () {
     dataLayer.push({
-        'event': 'randevu_al',
-        'fbEventName': 'randevu_al'
+        'event': 'click_randevu_al',
+        'fbEventName': 'click_randevu_al'
     });
 });
 
+// bannerdaki randevu al kısmı için event
 $(document).on('click', '[data-id="5d95dd6"]', function () {
     dataLayer.push({
-        'event': 'banner_randevu_al',
-        'fbEventName': 'banner_randevu_al'
+        'event': 'click_banner_randevu_al',
+        'fbEventName': 'click_banner_randevu_al'
     });
 });
 
